@@ -1,4 +1,7 @@
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
 .header {
     background-image: url("images/border.png");
     background-repeat: repeat-x;
@@ -7,7 +10,7 @@
     justify-content: space-evenly;  
     align-items: center;
     background-color: #2B2D33;
-    
+
 }
 .left {
     display: flex;
@@ -35,15 +38,7 @@
     padding-left: 15%;
 
 }
-.navbar {
-    display: flex;
-    flex-direction: row;
-    margin: 2em;
-    color: #00CCCC;
-    border-bottom: 5px solid #00CCCC;
-    font-size: 1.5rem;
-    justify-content: space-between;
-}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -59,6 +54,7 @@
     background-image: url("images/border.png");
     background-repeat: repeat-x;
     background-color: #2B2D33;
+    padding-bottom: 14.5%;
 }
 .all {
     display: flex;
@@ -74,18 +70,30 @@
 .col1 {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    border-left: 2px solid #00CCCC;
+    padding-left: 2%;
 }
 .col2 {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    border-left: 2px solid #00CCCC;
+    padding-left: 2%;
 }
 .col3 {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    
+    border-left: 2px solid #00CCCC;
+    padding-left: 2%;
+
 }
 .fe {
     background-color: #2B2D33;
     width: 100%;
+    
 }
 .mode {
     background-color: #00CCCC;
@@ -95,11 +103,109 @@
 }
 .points {
     background-color: #00CCCC;
+    margin: 2%;
+    width: 100%;
 }
 .v1 {
     background-color: #00CCCC;
+    margin: 2%;
+    width: 100%;
 }
 .left2 {
-    border: 1px solid black;
+    display: flex;
+    flex-shrink: 2;
 }
+.img {
+    border: 2px solid black;
+    width: 100%;
+}
+.bout {
+    padding: 1%;
+}
+.spec {
+    padding: 1%;
+}
+.pric {
+    padding: 1%;
+}
+.conta {
+    padding: 1%;
+}
+.sign {
+    padding: 1%;
+
+}
+.up {
+    padding: 1%;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    color: #00CCCC;
+    font-size:120%;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    border-bottom: 5px solid #00CCCC;
+}
+.about {
+    padding-bottom: 21%;
+    color: #00CCCC;
+}
+.specs {
+    padding-bottom: 21%;
+    color: #00CCCC;
+}
+.pricing {
+    padding-bottom: 21%;
+    color: #00CCCC;
+}
+.contact {
+    padding-bottom: 21%;
+    color: #00CCCC;
+}
+.signup {
+
+    color: #00CCCC;
+}
+.commercial {
+    padding-bottom: 9%;
+    color: #00CCCC;
+}
+.education {
+    padding-bottom: 9%;
+    color: #00CCCC;
+}
+.case {
+    padding-bottom: 9%;
+    color: #00CCCC;
+}
+.devtools {
+    padding-bottom: 9%;
+    color: #00CCCC;
+}
+.documentation {
+
+    color: #00CCCC;
+}
+.tutorials {
+    padding-bottom: 10%;
+    color: #00CCCC;
+}
+.events {
+    padding-bottom: 10%;
+    color: #00CCCC;
+}
+.blog {
+    padding-bottom: 10%;
+    color: #00CCCC;
+}
+.social {
+    padding-bottom: 10%;
+    color: #00CCCC;
+}
+.partners {
+
+    color: #00CCCC;  
+} 
 /*  border-bottom: 5px solid #00CCCC; */ 
