@@ -10,7 +10,8 @@
     justify-content: space-evenly;  
     align-items: center;
     background-color: #2B2D33;
-
+    font-weight: bold;
+    letter-spacing: 0.3em;
 }
 .left {
     display: flex;
@@ -18,13 +19,14 @@
     justify-content: center;
     font-size: 4rem;
     color: #00CCCC;
-    padding-right: 20%;
+    padding-right: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-right: 5%;
+    margin-left: 2%;
 }
 .l {
-    padding-right: 5%;
+    padding-right: 6%;
 }
 .mid {
     display: flex;
@@ -49,6 +51,10 @@
 }
 .lorem {
     margin-bottom: 1%;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 6.5%;
+    margin-right: 10%;
 }
 .info {
     background-image: url("images/border.png");
@@ -90,54 +96,109 @@
     padding-left: 2%;
 
 }
+
 .fe {
     background-color: #2B2D33;
     width: 100%;
-    
+    display: flex;
+    flex-basis: 3vw;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: #00CCCC;
+    align-items: center;
 }
 .mode {
     background-color: #00CCCC;
+    display: flex;
+    flex-basis: 4vw;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+.right2 {
+    flex-basis: 20%;
+    height: 10%;
+    justify-content: center;
+    font-weight: bold;
+    
 }
 .options {
+    display: flex;
     background-color: #00CCCC;
+    flex-basis: 4vw;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    align-items: center;
 }
 .points {
+    display: flex;
     background-color: #00CCCC;
-    margin: 2%;
     width: 100%;
+    flex-basis: 4vw;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    align-items: center;
 }
 .v1 {
+    display: flex;
     background-color: #00CCCC;
-    margin: 2%;
     width: 100%;
+    flex-basis: 4vw;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}
+span {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
 }
 .left2 {
     display: flex;
-    flex-shrink: 2;
+    flex-basis: 60%;
+
 }
 .img {
-    border: 2px solid black;
+    border: 4px solid black;
     width: 100%;
 }
 .bout {
     padding: 1%;
+    display: flex;
+    font-weight: bold;
 }
 .spec {
     padding: 1%;
+    font-weight: bold;
+    border-bottom: 5px solid white;
+    margin-bottom: -0.265em;
 }
+
 .pric {
     padding: 1%;
+    font-weight: bold;
 }
 .conta {
     padding: 1%;
+    font-weight: bold;
 }
 .sign {
     padding: 1%;
-
+    font-weight: bold;
 }
 .up {
     padding: 1%;
+    font-weight: bold;
+
 }
+    
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -146,66 +207,98 @@
     font-size:120%;
     justify-content: space-evenly;
     margin-right: 10%;
-    border-bottom: 5px solid #00CCCC;
+    flex-basis: 30%;
+    border-bottom: #00CCCC solid 5px;
+    
 }
+
 .about {
     padding-bottom: 21%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .specs {
     padding-bottom: 21%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .pricing {
     padding-bottom: 21%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .contact {
     padding-bottom: 21%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .signup {
 
     color: #00CCCC;
+    font-weight: bold;
 }
 .commercial {
     padding-bottom: 9%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .education {
     padding-bottom: 9%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .case {
     padding-bottom: 9%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .devtools {
     padding-bottom: 9%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .documentation {
 
     color: #00CCCC;
+    font-weight: bold;
 }
 .tutorials {
     padding-bottom: 10%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .events {
     padding-bottom: 10%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .blog {
     padding-bottom: 10%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .social {
     padding-bottom: 10%;
     color: #00CCCC;
+    font-weight: bold;
 }
 .partners {
 
     color: #00CCCC;  
+    font-weight: bold;
 } 
+
+.copy {
+     display: flex;
+     margin-top: 5%; 
+     justify-content: center;
+     margin-left: 14%;
+     background-color: #00CCCC;
+     width: 75%;
+     padding-top: .5%;
+     padding-bottom: .5%;
+     font-size: x-large;
+     font-weight: bold;
+
+}
 /*  border-bottom: 5px solid #00CCCC; */ 
