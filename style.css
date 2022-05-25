@@ -15,6 +15,9 @@
     font-weight: bold;
     letter-spacing: 0.3em;
 }
+span.APP {
+    color: #00CCCC;
+}
 .left {
     display: flex;
     flex-direction: row;
@@ -314,5 +317,8 @@ span {
 
 }
 .hamburger {
+    display: none;
+}
+.imagee {
     display: none;
 }
