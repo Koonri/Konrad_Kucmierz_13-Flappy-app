@@ -2,7 +2,7 @@
 @import url(mobile.css);
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 .header {
     background-image: url("images/border.png");
