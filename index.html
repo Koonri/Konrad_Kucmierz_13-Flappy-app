@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    
     <nav>
         <div class="bg"></div>
         <div class="header">
 
-            <div class="left">
+            <div class="left" id="left">
                 <div class="midleft">
                 <div class="sss">
                     <div class="s1">FLAPPY</div>
@@ -32,7 +33,7 @@
                 </div>
 
             </div>
-            <div class="navbar">
+            <div class="navbar" id="menu">
                 <div class="bout">ABOUT</div>
                 <div class="spec"><span class="spe">SPECS</span></div>
                 <div class="pric">PRICING</div>
@@ -40,7 +41,7 @@
                 <div class="sign">SIGN</div>
                 <div class="up">UP</div>
             </div>
-            <div class="hamburger"><img src="images/Hamburger_icon.png" alt="hamburger"></div> <!-- <img src="images/Hamburger_icon.png" alt="hamburger">-->
+            <div class="hamburger"><input type="image" src="images/Hamburger_icon.png" alt="hamburger" onclick="openMenu()" id="burgher"></div> <!-- <img src="images/Hamburger_icon.png" alt="hamburger">-->
         </div>
     </nav>
     <section>
@@ -111,7 +112,12 @@
             </footer>
     </div>
     </article>
-
+    <script>
+        function openMenu(e){
+            document.getElementById('menu').style.display = 'flex';
+            document.getElementById('burgher').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

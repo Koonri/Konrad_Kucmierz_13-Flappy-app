@@ -2,7 +2,7 @@
     .left {
         display: flex;
         flex-direction: row !important;
-        margin-left: 0px o !important; 
+        margin-left: 20% !important; 
         padding-left: 0px !important;
         font-size: 3rem !important;
         justify-content: baseline !important;
@@ -33,17 +33,19 @@
         margin-left: -100%;
         font-size: 1.5rem;
     }
-    .navbar{
-        display: none !important;
-    }
+    
     .hamburger {
         display: flex !important;
-        margin-left:  -15% !important;
+        margin-left:  10% !important;
         margin-right: -25%;
         z-index: 10;
         width: 3rem;
         height: 3rem ;
     }
+    .header {
+        justify-content:left !important;
+    }
+    
     .col2 {
         display: none !important;
     }

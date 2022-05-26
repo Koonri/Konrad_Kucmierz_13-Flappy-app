@@ -322,3 +322,10 @@ span {
 .imagee {
     display: none;
 }
+@media screen and (max-width: 750px) {
+    .navbar {
+        display: none;
+        font-size: .5em !important;
+        margin-left: -10% !important;
+    }
+}
