@@ -62,4 +62,34 @@
         background-repeat: no-repeat;
         background-size: 100% 300px;
     }
+    .all {
+        align-items: center;
+    }
+    .fe {
+    padding-bottom: 2%;
+    align-items: center;
+    padding-top: 2%;
+    }
+    .mode {
+        width: 100%;
+        padding-bottom: 2%;
+    align-items: center;
+    padding-top: 2%;
+    }
+    .options {
+        width: 100%;
+        padding-bottom: 2%;
+    align-items: center;
+    padding-top: 2%;
+    }
+    .points {
+        padding-bottom: 2%;
+    align-items: center;
+    padding-top: 2%;
+    }
+    .v1 {
+        padding-bottom: 2%;
+    align-items: center;
+    padding-top: 2%;
+    }
 }
